@@ -1,0 +1,27 @@
+GridLayoutExample:
+
+<GridLayoutExample>:
+    cols: 2
+    Button:
+        text:"A"
+    GridLayoutInside:
+    Button:
+        text:"C"
+    Button:
+        text:"D"
+
+<GridLayoutInside@GridLayout>:
+    rows:3
+    Button:
+        text: "A1"
+    BoxLayoutInside:
+    Button:
+        text: "A2"
+
+<BoxLayoutInside@BoxLayout>:
+    Button:
+        text: "B1"
+    Button:
+        text: "B2"
+    Button:
+        text: "B3"
